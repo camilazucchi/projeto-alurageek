@@ -1,0 +1,11 @@
+.produtos-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.produtos-wrapper:first-child {
+    margin-top: 0;
+}

@@ -1,0 +1,9 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: first baseline;
+    padding: 1.5rem;
+    background-color: var(--color-white-medium);
+  }

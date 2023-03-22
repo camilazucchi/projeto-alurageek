@@ -1,0 +1,12 @@
+.login-form-senha {
+  background-color: var(--color-white);
+  border-radius: 4px;
+  border: none;
+  color: var(--color-white-darker);
+  font-family: var(--main-font);
+  font-size: var(--font-size-medium);
+  font-weight: 400;
+  height: 45px;
+  padding: 1rem;
+  width: 265px;
+}

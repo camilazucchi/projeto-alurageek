@@ -1,0 +1,18 @@
+.produto-imagem {
+  height: 170px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.deletar-produto {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+}
+
+.editar-produto {
+  width: 14px;
+  height: 14px;
+}

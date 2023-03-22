@@ -1,0 +1,6 @@
+.banner-titulo {
+  color: var(--color-white);
+  font-family: var(--main-font);
+  font-size: var(--font-size-large);
+  font-weight: 700;
+}

@@ -1,0 +1,15 @@
+.banner-botao {
+  align-items: center;
+  background-color: var(--color-blue-dark);
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  font-family: var(--main-font);
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  height: 50px;
+  padding: 1rem;
+  text-align: center;
+  width: 120px;
+}

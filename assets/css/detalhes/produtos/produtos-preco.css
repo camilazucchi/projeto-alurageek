@@ -1,0 +1,6 @@
+.produtos-preco {
+  color: var(--color-black);
+  font-family: var(--main-font);
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+}

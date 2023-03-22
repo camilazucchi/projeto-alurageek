@@ -1,0 +1,8 @@
+.produtos-link {
+  color: var(--color-blue-dark);
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+  text-decoration: none;
+}

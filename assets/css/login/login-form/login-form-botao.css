@@ -1,0 +1,14 @@
+.login-form-botao {
+  align-items: center;
+  background-color: var(--color-blue-dark);
+  border: none;
+  color: var(--color-white);
+  display: flex;
+  font-family: var(--main-font);
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  padding: 1rem;
+  width: 100px;
+}

@@ -1,0 +1,7 @@
+.produtos-lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  justify-content: center;
+}

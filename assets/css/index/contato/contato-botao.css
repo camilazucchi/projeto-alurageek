@@ -1,0 +1,10 @@
+.contato-botao {
+  background-color: var(--color-blue-dark);
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  padding: 1rem;
+}

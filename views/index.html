@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/styles/_normalize.css" />
+    <link rel="stylesheet" href="/assets/css/styles/_variaveis.css" />
+    <link rel="stylesheet" href="/assets/css/index/navbar/navbar.css" />
+    <link rel="stylesheet" href="/assets/css/index/navbar/navbar-titulo.css" />
+    <link rel="stylesheet" href="/assets/css/index/navbar/navbar-logo.css" />
+    <link rel="stylesheet" href="/assets/css/index/navbar/navbar-botao.css" />
+    <link rel="stylesheet" href="/assets/css/index/navbar/navbar-buscar.css" />
+    <link rel="stylesheet" href="/assets/css/index/banner/banner.css" />
+    <link rel="stylesheet" href="/assets/css/index/banner/banner-titulo.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/banner/banner-subtitulo.css"
+    />
+    <link rel="stylesheet" href="/assets/css/index/banner/banner-botao.css" />
+    <link rel="stylesheet" href="/assets/css/index/produtos/produtos.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/produtos/produtos-titulo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/produtos/produtos-link.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/produtos/produtos-wrapper.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/produtos/produtos-categoria.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/produtos/produto-imagem.css"
+    />
+    <link rel="stylesheet" href="/assets/css/index/produtos/produto-nome.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/produtos/produto-preco.css"
+    />
+    <link rel="stylesheet" href="/assets/css/index/produtos/produto-link.css" />
+    <link rel="stylesheet" href="/assets/css/index/footer/footer.css" />
+    <link rel="stylesheet" href="/assets/css/index/footer/footer-navbar.css" />
+    <link rel="stylesheet" href="/assets/css/index/footer/footer-titulo.css" />
+    <link rel="stylesheet" href="/assets/css/index/footer/footer-logo.css" />
+    <link rel="stylesheet" href="/assets/css/index/footer/footer-link.css" />
+    <link rel="stylesheet" href="/assets/css/index/footer/footer-credito.css" />
+    <link rel="stylesheet" href="/assets/css/index/contato/contato.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/contato/contato-titulo.css"
+    />
+    <link rel="stylesheet" href="/assets/css/index/contato/contato-nome.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/css/index/contato/contato-mensagem.css"
+    />
+    <link rel="stylesheet" href="/assets/css/index/contato/contato-botao.css" />
+  </head>
+  <body>
+    <header class="header">
+      <navbar class="navbar">
+        <h1 class="navbar-titulo">
+          <img
+            class="navbar-logo"
+            src="/assets/img/svg/gaming-console.svg"
+            alt="Logo AluraGeek"
+          />
+          <span style="color: var(--color-blue-dark)">Alura</span>Geek
+        </h1>
+        <button class="navbar-botao">Login</button>
+        <img
+          class="navbar-buscar"
+          src="/assets/img/svg/icon-search.svg"
+          alt="Desenho de uma lupa"
+        />
+      </navbar>
+    </header>
+
+    <section class="banner">
+      <h2 class="banner-titulo">Março Promocional</h2>
+      <p class="banner-subtitulo">Produtos selecionados com 33% de desconto</p>
+      <button class="banner-botao">Ver produtos</button>
+    </section>
+
+    <section class="produtos">
+      <div class="produtos-wrapper">
+        <h2 class="produtos-titulo">Star Wars</h2>
+        <a class="produtos-link" href="#">Ver tudo</a>
+      </div>
+      <div class="produtos-categoria-1"></div>
+    </section>
+
+    <section class="produtos">
+      <div class="produtos-wrapper">
+        <h2 class="produtos-titulo">Consoles</h2>
+        <a class="produtos-link" href="#">Ver tudo</a>
+      </div>
+      <div class="produtos-categoria-2"></div>
+    </section>
+
+    <section class="produtos">
+      <div class="produtos-wrapper">
+        <h2 class="produtos-titulo">Diversos</h2>
+        <a class="produtos-link" href="#">Ver tudo</a>
+      </div>
+      <div class="produtos-categoria-3"></div>
+    </section>
+
+    <footer class="footer">
+      <navbar class="footer-navbar">
+        <h1 class="footer-titulo">
+          <img
+            class="footer-logo"
+            src="/assets/img/svg/gaming-console.svg"
+            alt="Logo AluraGeek"
+          />
+          <span style="color: var(--color-blue-dark)">Alura</span>Geek
+        </h1>
+        <a class="footer-link" href="#">Quem somos nós</a>
+        <a class="footer-link" href="#">Política de privacidade</a>
+        <a class="footer-link" href="#">Programa fidelidade</a>
+        <a class="footer-link" href="#">Nossas lojas</a>
+        <a class="footer-link" href="#">Quero ser franqueado</a>
+        <a class="footer-link" href="#">Anuncie aqui</a>
+      </navbar>
+
+      <form class="contato">
+        <p class="contato-titulo">Fale conosco</p>
+        <input class="contato-nome" type="text" placeholder="Nome" required />
+        <input
+          class="contato-mensagem"
+          type="text"
+          placeholder="Escreva sua mensagem"
+          required
+        />
+        <button type="submit" class="contato-botao">Enviar mensagem</button>
+      </form>
+    </footer>
+
+    <footer class="footer-credito">
+      <p class="footer-credito-titulo">Desenvolvido por Camila</p>
+      <p class="footer-credito-ano">2023</p>
+    </footer>
+  </body>
+  <script src="/controllers/listaProdutos.js"></script>
+</html>

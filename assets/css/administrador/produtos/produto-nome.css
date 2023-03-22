@@ -1,0 +1,6 @@
+.produto-nome {
+    color: var(--color-black);
+    font-family: var(--main-font);
+    font-size: var(--font-size-small);
+    font-weight: 500;
+  }

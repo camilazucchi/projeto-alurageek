@@ -1,0 +1,17 @@
+:root {
+
+    --color-white: #FFFFFF;
+    --color-white-medium: #F5F5F5;
+    --color-white-dark: #E5E5E5;
+    --color-white-darker: #A2A2A2;
+    --color-black-light: #C8C8C8;
+    --color-black: #464646;
+    --color-blue: #EAF2FD;
+    --color-blue-dark: #2A7AE4;
+
+    --main-font: 'Raleway', sans-serif;
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 22px;
+    
+}

@@ -1,0 +1,5 @@
+.produto-similar-imagem {
+  height: 170px;
+  object-fit: cover;
+  width: 160px;
+}

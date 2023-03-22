@@ -1,0 +1,7 @@
+.novo-produto-form {
+  align-items: first baseline;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
